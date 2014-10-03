@@ -3,6 +3,7 @@
 #import "StatusItemView.h"
 #import "MenubarController.h"
 
+
 #define OPEN_DURATION .15
 #define CLOSE_DURATION .1
 
@@ -71,12 +72,17 @@
         if (_hasActivePanel)
         {
             [self openPanel];
+            
         }
         else
         {
             [self closePanel];
         }
     }
+}
+
+- (IBAction)cklick:(id)sender {
+    
 }
 
 #pragma mark - NSWindowDelegate

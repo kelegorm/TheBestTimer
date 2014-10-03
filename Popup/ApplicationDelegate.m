@@ -5,6 +5,7 @@
 @synthesize panelController = _panelController;
 @synthesize menubarController = _menubarController;
 
+
 #pragma mark -
 
 - (void)dealloc
